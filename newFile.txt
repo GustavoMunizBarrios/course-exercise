@@ -1,1 +1,2 @@
 Esto es un archivo solo para hacer merge con la rama principal master
+Este es un cambio en la branch new-branch
