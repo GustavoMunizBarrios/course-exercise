@@ -1,1 +1,2 @@
-Esto es un archivo solo para hacer merge con la rama principal master
+Esto es un archivo solo para hacer merge con la rama principal master.
+Realizando una segunda modificación 
