@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: sans-serif;
+            color: brown;
+        }
+        section {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            /* justify-content: space-between; */
+
+        }
+ /*------------- STARK -------------------------*/        
+        .card{
+            width: 300px;
+            height: 300px;
+            background-color: rgb(61, 88, 220);
+            border-radius: 20px;
+            overflow: hidden; /*all content that is overflowed
+             will be hidden */
+        }
+        .card img { /*we modified the properties of img*/
+            width: 100%;
+        }
+        .card p {
+            text-align: center;
+            color: rgb(247, 247, 247);
+            font-family: sans-serif;
+        }
+        .card p:nth-child(2){ /*Character*/
+            font-variant: small-caps;
+
+        }
+        .card p:nth-child(3){ /*House*/
+            font-size: small;
+            font-style: italic;
+        }
+/*-----------------LANNISTER-------------------  */
+        .card2{
+            width: 300px;
+            height: 300px;
+            background-color: rgb(220, 135, 61);
+            border-radius: 20px;
+            overflow: hidden; /*all content that is overflowed
+             will be hidden */
+        }
+        .card2 img { /*we modified the properties of img*/
+            width: 100%;
+        }
+        .card2 p {
+            text-align: center;
+            color: rgb(247, 247, 247);
+            font-family: sans-serif;
+        }
+        .card2 p:nth-child(2){ /*Character Text*/
+            font-variant: small-caps;
+
+        }
+        .card2 p:nth-child(3){ /*House Text*/
+            font-size: small;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>GAME OF THRONES Characters</h1>
+    <section>
+        <div class="card">
+            <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/08/10/11/nedstark.jpg?width=1200" alt="nedstark">
+            <p>Character: Eddard Stark</p>
+            <p>House: Stark</p>
+        </div>
+        <div class="card2">
+            <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_876x493/public/media/image/2017/08/tyrion-lannister.jpg?itok=gt5pWueO" alt="tyrion-lannister">
+            <p>Character: Tyrion Lannister</p>
+            <p>House: Lannister</p>
+        </div>
+    </section>
+</body>
+</html>
